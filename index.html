@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="logo-container">
+          <img src="https://i.pinimg.com/originals/59/e4/fe/59e4fe803b9a08d07627a00344976d5b.jpg"
+          alt="logo"
+          id="header-img" />
+          <span class="the-product">Classic Books</span>        
+        </div>
+          <ul class="nav-links">
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#audio" class="nav-link">Free Audio Book</a></li>
+            <li><a href="#for-sale" class="nav-link">For Sale</a></li>
+          </ul>
+      </nav>
+    </header>
+    <section id="email-section">
+      <h2>Beautifully Written Masterpieces</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+        </input>
+        <input id="submit" type="submit" value="GET STARTED" ></input>
+      </form>
+    </section>
+    <section id="features">
+      <div class="feature">
+        <i class="ri-file-paper-fill ri-4x icon"></i>
+        <div>
+            <h2>Premium Materials</h2>
+            <p>
+          Our books use the best paper which is sourced locally. This will increased the longevity of your purchase.
+            </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-truck-fill ri-4x icon"></i>
+        <div>
+            <h2>1 Day Shipping</h2>
+            <p>
+          We make sure you receive yor classic book as so that you can start reading immediately. We also if provide free returns if you are not satisfied. 
+            </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-book-open-line ri-4x icon"></i>
+        <div>
+            <h2>Quality Books Only</h2>
+            <p>
+          We make sure to only provide classic books. We guarantee that the book you buy is one of the top classic books on the market. 
+            </p>
+        </div>
+      </div>
+    </section>
+    <section id="audio">
+      <iframe
+      id="video" 
+      height="400" 
+      src="https://www.youtube.com/embed/YKAfKprBXQc?si=udL-PBjAGrIMTIUf"     title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      </iframe>
+    </section>
+    <section id="for-sale">
+      <h2>For Sale</h2>
+      <div class="product-cards">
+        <div class="card">
+          <div class="product-image product1"></div>
+          <div class="inner-card">
+            <div class="author">Dale Carnegie</div>
+            <h1 class="header">How to Win Friends & Influence People</h1>
+            <p class="content">
+              Dale Carnegie's rock-solid, time-tested advice has carried countless people up the ladder of success in their business and person-lives.
+            </p>
+            <div class="flex">
+              <p class="main-price">$16.12</p>
+              <p class="old-price">$19.29</p>
+            </div>
+            <button class="add">
+              <p style="margin: 0 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product-image product2"></div>
+          <div claass="inner-card">
+            <div class="author">Robert T. Kiyusaki</div>
+            <h1 class="header">Rich Dad Poor Dad</h1>
+            <p class="content">
+              What The Rich Teach Their Kids That The Poor And The Middle-Class Do Not
+            </p>
+            <div class="flex">
+              <p class="main-price">$7.58</p>
+              <p class="old-price">$15.16</p>
+            </div>
+            <button class="add">
+               <p style="margin: 0 5px">Add to Cart</p>             
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product-image product3"></div>
+<div claass="inner-card">
+            <div class="author">James Clear</div>
+            <h1 class="header">Atomic Habits</h1>
+            <p class="content">
+              A supremely practical and useful book. James Clear distills the most fundamental information about habit formation, so you can accomplish more by focusing on less.
+            </p>
+            <div class="flex">
+              <p class="main-price">$11.98</p>
+              <p class="old-price">$14.99</p>          
+        </div>
+<button class="add">
+               <p style="margin: 0 5px">Add to Cart</p>             
+            </button>
+      </div>
+    </section>
+  </body>
+</html>
